@@ -37,6 +37,36 @@
             key-positions = <13 16>;
             layers = <0>;
         };
+
+        L_Command {
+            bindings = <&kp LEFT_COMMAND>;
+            key-positions = <12 13>;
+        };
+
+        R_Command {
+            bindings = <&kp RIGHT_COMMAND>;
+            key-positions = <17 16>;
+        };
+
+        L_CTRL {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <11 12>;
+        };
+
+        R_CTRL {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <17 18>;
+        };
+
+        L_ALT {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <11 10>;
+        };
+
+        R_ALT {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
@@ -78,10 +108,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q       &kp W       &kp F         &kp P        &kp B        &kp J        &kp L        &kp U          &kp Y       &kp SINGLE_QUOTE
-                &mt LGUI A  &mt LALT R  &mt LCTRL S   &mt LSHFT T  &kp G        &kp M        &mt RSHFT N  &mt RCTRL E    &mt RALT I  &mt RGUI O
-&kp LEFT_SHIFT  &kp Z       &kp X       &kp C         &kp D        &kp V        &kp K        &kp H        &kp COMMA      &kp DOT     &kp SLASH         &kp RIGHT_SHIFT
-                                        &lt 5 ESCAPE  &lt 1 SPACE  &lt 2 TAB    &lt 4 ENTER  &lt 3 SPACE  &kp BACKSPACE
+                &kp Q  &kp W  &kp F         &kp P        &kp B        &kp J        &kp L        &kp U          &kp Y    &kp SINGLE_QUOTE
+                &kp A  &kp R  &kp S         &kp T        &kp G        &kp M        &kp N        &kp E          &kp I    &kp O
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp D        &kp V        &kp K        &kp H        &kp COMMA      &kp DOT  &kp SLASH         &kp RIGHT_SHIFT
+                              &lt 5 ESCAPE  &lt 1 SPACE  &lt 2 TAB    &lt 4 ENTER  &lt 3 SPACE  &kp BACKSPACE
             >;
         };
 
