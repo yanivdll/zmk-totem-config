@@ -67,6 +67,16 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <18 19>;
         };
+
+        nav_layer1 {
+            bindings = <&mo 1>;
+            key-positions = <14 33>;
+        };
+
+        nav_layer2 {
+            bindings = <&mo 2>;
+            key-positions = <15 36>;
+        };
     };
 
     macros {
@@ -108,10 +118,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp F         &kp P        &kp B        &kp J        &kp L        &kp U          &kp Y    &kp SINGLE_QUOTE
-                &kp A  &kp R  &kp S         &kp T        &kp G        &kp M        &kp N        &kp E          &kp I    &kp O
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp D        &kp V        &kp K        &kp H        &kp COMMA      &kp DOT  &kp SLASH         &kp RIGHT_SHIFT
-                              &lt 5 ESCAPE  &lt 1 SPACE  &lt 2 TAB    &lt 4 ENTER  &lt 3 SPACE  &kp BACKSPACE
+                &kp Q  &kp W  &kp F         &kp P      &kp B        &kp J        &kp L      &kp U          &kp Y    &kp SINGLE_QUOTE
+                &kp A  &kp R  &kp S         &kp T      &kp G        &kp M        &kp N      &kp E          &kp I    &kp O
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp D      &kp V        &kp K        &kp H      &kp COMMA      &kp DOT  &kp SLASH         &kp RIGHT_SHIFT
+                              &lt 5 ESCAPE  &kp SPACE  &lt 2 TAB    &lt 4 ENTER  &kp SPACE  &kp BACKSPACE
             >;
         };
 
