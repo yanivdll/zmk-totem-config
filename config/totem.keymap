@@ -74,7 +74,7 @@
         };
 
         nav_layer2 {
-            bindings = <&mo 2>;
+            bindings = <&mo 3>;
             key-positions = <15 36>;
         };
     };
