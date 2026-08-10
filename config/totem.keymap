@@ -70,12 +70,12 @@
 
         nav_layer1 {
             bindings = <&mo 1>;
-            key-positions = <14 33>;
+            key-positions = <33 13>;
         };
 
         nav_layer2 {
             bindings = <&mo 3>;
-            key-positions = <15 36>;
+            key-positions = <36 16>;
         };
     };
 
