@@ -160,7 +160,7 @@
             &none  &kp ESCAPE  &kp LG(X)   &kp LCTRL      &kp LEFT_GUI      &none       &kp PG_UP      &none         &kp HOME   &none
             &none  &none       &kp LG(C)   &kp LG(Z)      &kp LEFT_SHIFT    &caps_word  &kp LEFT       &kp UP_ARROW  &kp RIGHT  &none
 &caps_word  &none  &none       &kp LG(V)   &kp LG(LS(Z))  &kp LEFT_ALT      &none       &kp PAGE_DOWN  &kp DOWN      &kp END    &none  &trans
-                               &kp ESCAPE  &trans         &trans            &trans      &mo 6          &kp DELETE
+                               &kp ESCAPE  &trans         &trans            &trans      &trans         &kp DELETE
             >;
         };
 
