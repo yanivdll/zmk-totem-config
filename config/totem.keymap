@@ -87,6 +87,11 @@
             bindings = <&mo 4>;
             key-positions = <19 35>;
         };
+
+        nav_layer6 {
+            bindings = <&mo 6>;
+            key-positions = <32 37>;
+        };
     };
 
     macros {
@@ -128,10 +133,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp F         &kp P      &kp B        &kp J      &kp L      &kp U          &kp Y    &kp SINGLE_QUOTE
-                &kp A  &kp R  &kp S         &kp T      &kp G        &kp M      &kp N      &kp E          &kp I    &kp O
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp D      &kp V        &kp K      &kp H      &kp COMMA      &kp DOT  &kp SLASH         &kp RIGHT_SHIFT
-                              &lt 5 ESCAPE  &kp SPACE  &lt 6 TAB    &kp ENTER  &kp SPACE  &kp BACKSPACE
+                &kp Q  &kp W  &kp F         &kp P      &kp B      &kp J      &kp L      &kp U          &kp Y    &kp SINGLE_QUOTE
+                &kp A  &kp R  &kp S         &kp T      &kp G      &kp M      &kp N      &kp E          &kp I    &kp O
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp D      &kp V      &kp K      &kp H      &kp COMMA      &kp DOT  &kp SLASH         &kp RIGHT_SHIFT
+                              &lt 5 ESCAPE  &kp SPACE  &kp TAB    &kp ENTER  &kp SPACE  &kp BACKSPACE
             >;
         };
 
@@ -162,9 +167,9 @@
         MOUSE_LAYER {
             label = "MOUSE";
             bindings = <
-            &none  &kp ESC  &kp LG(X)   &kp LCTRL      &kp LEFT_GUI      &none       &msc SCRL_UP    &none           &msc SCRL_RIGHT  &none
+            &none  &kp ESC  &kp LG(X)   &kp LCTRL      &kp LEFT_GUI      &none       &msc SCRL_DOWN  &none           &msc SCRL_RIGHT  &none
             &none  &none    &kp LG(C)   &kp LG(Z)      &kp LEFT_SHIFT    &caps_word  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
-&caps_word  &none  &none    &kp LG(V)   &kp LG(LS(Z))  &kp LEFT_ALT      &none       &msc SCRL_DOWN  &mmv MOVE_DOWN  &msc SCRL_LEFT   &none  &trans
+&caps_word  &none  &none    &kp LG(V)   &kp LG(LS(Z))  &kp LEFT_ALT      &none       &msc SCRL_UP    &mmv MOVE_DOWN  &msc SCRL_LEFT   &none  &trans
                             &kp ESCAPE  &trans         &trans            &mkp RCLK   &mkp LCLK       &mkp MCLK
             >;
         };
