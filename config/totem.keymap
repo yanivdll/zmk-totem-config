@@ -170,7 +170,7 @@
             &none  &kp ESC  &kp LG(X)   &kp LCTRL      &kp LEFT_GUI      &none       &msc SCRL_DOWN  &none           &msc SCRL_RIGHT  &none
             &none  &none    &kp LG(C)   &kp LG(Z)      &kp LEFT_SHIFT    &caps_word  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
 &caps_word  &none  &none    &kp LG(V)   &kp LG(LS(Z))  &kp LEFT_ALT      &none       &msc SCRL_UP    &mmv MOVE_DOWN  &msc SCRL_LEFT   &none  &trans
-                            &kp ESCAPE  &trans         &trans            &mkp RCLK   &mkp LCLK       &mkp MCLK
+                            &kp ESCAPE  &trans         &trans            &mkp LCLK   &mkp MCLK       &mkp RCLK
             >;
         };
 
