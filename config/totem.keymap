@@ -71,21 +71,37 @@
         nav_layer1 {
             bindings = <&mo 1>;
             key-positions = <33 10>;
+            slow-release;
+            timeout-ms = <120>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         nav_layer3 {
             bindings = <&mo 3>;
             key-positions = <36 19>;
+            slow-release;
+            timeout-ms = <120>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         nav_layer2 {
             bindings = <&mo 2>;
             key-positions = <10 34>;
+            slow-release;
+            timeout-ms = <120>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         nav_layer4 {
             bindings = <&mo 4>;
             key-positions = <19 35>;
+            slow-release;
+            timeout-ms = <120>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         nav_layer6 {
@@ -158,7 +174,7 @@
 
             bindings = <
             &none  &kp ESCAPE  &kp LG(X)   &kp LCTRL      &kp LEFT_GUI      &none       &kp PG_UP      &none         &kp HOME   &none
-            &none  &none       &kp LG(C)   &kp LG(Z)      &kp LEFT_SHIFT    &caps_word  &kp LEFT       &kp UP_ARROW  &kp RIGHT  &none
+            &none  &kp TAB     &kp LG(C)   &kp LG(Z)      &kp LEFT_SHIFT    &caps_word  &kp LEFT       &kp UP_ARROW  &kp RIGHT  &none
 &caps_word  &none  &none       &kp LG(V)   &kp LG(LS(Z))  &kp LEFT_ALT      &none       &kp PAGE_DOWN  &kp DOWN      &kp END    &none  &trans
                                &kp ESCAPE  &trans         &trans            &trans      &trans         &kp DELETE
             >;
@@ -168,7 +184,7 @@
             label = "MOUSE";
             bindings = <
             &none  &kp ESC  &kp LG(X)   &kp LCTRL      &kp LEFT_GUI      &none       &msc SCRL_DOWN  &none           &msc SCRL_RIGHT  &none
-            &none  &none    &kp LG(C)   &kp LG(Z)      &kp LEFT_SHIFT    &caps_word  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
+            &none  &kp TAB  &kp LG(C)   &kp LG(Z)      &kp LEFT_SHIFT    &caps_word  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
 &caps_word  &none  &none    &kp LG(V)   &kp LG(LS(Z))  &kp LEFT_ALT      &none       &msc SCRL_UP    &mmv MOVE_DOWN  &msc SCRL_LEFT   &none  &trans
                             &kp ESCAPE  &trans         &trans            &mkp LCLK   &mkp MCLK       &mkp RCLK
             >;
@@ -192,7 +208,7 @@
 
             bindings = <
         &kp LEFT_BRACKET  &kp NUMBER_7  &kp N8        &kp N9        &kp RIGHT_BRACKET    &kp RIGHT_GUI  &kp RCTRL      &kp RG(X)  &kp ESC  &none
-        &kp SEMICOLON     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL            &kp RSHIFT     &kp LG(RG(Z))  &kp RG(C)  &none    &none
+        &kp SEMICOLON     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL            &kp RSHIFT     &kp LG(RG(Z))  &kp RG(C)  &kp TAB  &none
 &trans  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH        &kp RIGHT_ALT  &kp RS(RG(Z))  &kp RG(V)  &none    &none  &trans
                                         &kp PERIOD    &kp N0        &kp MINUS            &trans         &trans         &trans
             >;
@@ -202,7 +218,7 @@
             label = "SYM";
             bindings = <
         &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &kp RIGHT_GUI    &kp RCTRL      &kp RG(X)  &kp ESCAPE  &none
-        &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &kp RIGHT_SHIFT  &kp RG(Z)      &kp RG(C)  &none       &none
+        &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &kp RIGHT_SHIFT  &kp RG(Z)      &kp RG(C)  &kp TAB     &none
 &trans  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &kp RIGHT_ALT    &kp RS(RG(Z))  &kp RG(V)  &none       &none  &trans
                                          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &trans           &trans         &trans
             >;
@@ -212,7 +228,7 @@
             label = "FUNC";
             bindings = <
        &none  &kp ESCAPE  &kp LG(C)  &kp LEFT_CONTROL  &kp LEFT_GUI      &kp C_VOLUME_UP  &kp F7  &kp F8  &kp F9  &kp F12
-       &none  &none       &kp LG(C)  &kp LG(Z)         &kp LEFT_SHIFT    &kp C_VOL_DN     &kp F4  &kp F5  &kp F6  &kp F11
+       &none  &kp TAB     &kp LG(C)  &kp LG(Z)         &kp LEFT_SHIFT    &kp C_VOL_DN     &kp F4  &kp F5  &kp F6  &kp F11
 &none  &none  &none       &kp LG(V)  &kp LS(LG(Z))     &kp LEFT_ALT      &kp K_MUTE       &kp F1  &kp F2  &kp F3  &kp F10  &trans
                           &trans     &trans            &trans            &trans           &trans  &trans
             >;
