@@ -68,7 +68,7 @@
             key-positions = <18 19>;
         };
 
-        nav_layer1 {
+        nav_layer3 {
             bindings = <&mo 3>;
             key-positions = <33 13>;
             slow-release;
@@ -77,7 +77,7 @@
             layers = <0>;
         };
 
-        nav_layer3 {
+        nav_layer5 {
             bindings = <&mo 5>;
             key-positions = <36 16>;
             slow-release;
@@ -86,7 +86,7 @@
             layers = <0>;
         };
 
-        nav_layer2 {
+        nav_layer4 {
             bindings = <&mo 4>;
             key-positions = <33 12>;
             slow-release;
@@ -95,7 +95,7 @@
             layers = <0>;
         };
 
-        nav_layer4 {
+        nav_layer6 {
             bindings = <&mo 6>;
             key-positions = <17 36>;
             slow-release;
@@ -104,9 +104,19 @@
             layers = <0>;
         };
 
-        nav_layer6 {
+        nav_layer8 {
             bindings = <&mo 8>;
             key-positions = <32 37>;
+        };
+
+        nav_layer1 {
+            bindings = <&mo 1>;
+            key-positions = <14 33>;
+        };
+
+        nav_layer2 {
+            bindings = <&mo 2>;
+            key-positions = <15 36>;
         };
     };
 
