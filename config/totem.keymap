@@ -112,13 +112,17 @@
         nav_layer1 {
             bindings = <&mo 1>;
             key-positions = <14 33>;
-            layers = <0>;
+            slow-release;
+            timeout-ms = <120>;
+            require-prior-idle-ms = <100>;
         };
 
         nav_layer2 {
             bindings = <&mo 2>;
             key-positions = <15 36>;
-            layers = <0>;
+            slow-release;
+            timeout-ms = <120>;
+            require-prior-idle-ms = <100>;
         };
     };
 
