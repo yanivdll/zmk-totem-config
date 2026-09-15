@@ -167,7 +167,7 @@
         };
 
         left_modifiers {
-            label = "NAVI";
+            label = "MODL";
             bindings = <
             &kp LS(LG(Z))   &none             &none       &none             &kp ESC      &trans  &trans  &trans  &trans  &trans
             &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LALT    &kp LEFT_COMMAND  &kp TAB      &trans  &trans  &trans  &trans  &trans
@@ -177,7 +177,7 @@
         };
 
         right_modifiers {
-            label = "NUM";
+            label = "MODR";
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &kp ESCAPE  &kp RCTRL  &kp RG(X)  &kp ESC    &kp RS(RG(Z))
         &trans  &trans  &trans  &trans  &trans    &kp TAB     &kp RGUI   &kp RALT   &kp RCTRL  &kp RSHFT
@@ -189,7 +189,7 @@
         NAV_LAYER {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "NAVI";
+            label = "NAV";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
