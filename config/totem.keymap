@@ -41,31 +41,37 @@
         L_Command {
             bindings = <&kp LEFT_COMMAND>;
             key-positions = <12 13>;
+            layers = <0>;
         };
 
         R_Command {
             bindings = <&kp RIGHT_COMMAND>;
             key-positions = <17 16>;
+            layers = <0>;
         };
 
         L_CTRL {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <11 12>;
+            layers = <0>;
         };
 
         R_CTRL {
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <17 18>;
+            layers = <0>;
         };
 
         L_ALT {
             bindings = <&kp LEFT_ALT>;
             key-positions = <11 10>;
+            layers = <0>;
         };
 
         R_ALT {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <18 19>;
+            layers = <0>;
         };
 
         nav_layer3 {
